@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+@import 'header.css';
+@import 'apresentacao.css';
+@import 'conhecimentos.css';
+@import 'projetos.css';
+@import 'formacao.css';
+@import 'footer.css';
+
+
+::-webkit-scrollbar {
+  width: 10px; /* largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* cor de fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #161616, #888);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #161616, #888);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 5px; /* borda arredondada da barra de rolagem */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #161616;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
