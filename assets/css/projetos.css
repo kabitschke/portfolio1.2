@@ -1,5 +1,5 @@
 .projetos {
-  padding: 40px 20px;
+  padding: 70px 20px;
 }
 
 .projeto {
@@ -16,12 +16,12 @@
 }
 
 .projeto {
-  padding: 20px; 
+  padding: 20px;
   background: #1a1a1a;
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
-  box-shadow: 2px 2px 2px 0px rgba(255, 255, 255, 0.08);  
+  box-shadow: 2px 2px 2px 0px rgba(255, 255, 255, 0.08);
 }
 
 .projeto::before {
@@ -93,11 +93,11 @@
 
 .projeto-texto {
   flex: 1;
-  min-width: 150px; 
+  min-width: 150px;
   font-size: 0.875rem;
   line-height: 1.4;
   color: #cacaca;
-  
+
 }
 
 .projeto-texto a {
@@ -144,35 +144,39 @@
 
 @media (max-width: 500px) {
   .projeto-texto {
-    flex: 2;   
+    flex: 2;
   }
-  .projeto-head{
+
+  .projeto-head {
     font-size: 1rem;
   }
 
 }
 
 @media (max-width: 400px) {
-.projetos-texto {
+  .projetos-texto {
     font-size: 1rem;
- }
-.projeto{  
-  flex-direction: column;
-}
-.projeto-habilidades {
-  flex-direction:row; 
-}
-.projeto-habilidades li {
-  font-size: 0.625rem;  
-  margin-right: 5px;
-  padding: 5px;  
-}
+  }
 
-.projeto-texto {
-  font-size: 0.75rem;  
-}
+  .projeto {
+    flex-direction: column;
+  }
 
-.projeto { 
-  padding: 10px 10px;  
-}
+  .projeto-habilidades {
+    flex-direction: row;
+  }
+
+  .projeto-habilidades li {
+    font-size: 0.625rem;
+    margin-right: 5px;
+    padding: 5px;
+  }
+
+  .projeto-texto {
+    font-size: 0.75rem;
+  }
+
+  .projeto {
+    padding: 10px 10px;
+  }
 }

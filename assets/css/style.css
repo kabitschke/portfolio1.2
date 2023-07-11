@@ -10,11 +10,13 @@
 
 
 ::-webkit-scrollbar {
-  width: 10px; /* largura da barra de rolagem */
+  width: 10px;
+  /* largura da barra de rolagem */
 }
 
 ::-webkit-scrollbar-track {
-  background: #333; /* cor de fundo da barra de rolagem */
+  background: #333;
+  /* cor de fundo da barra de rolagem */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -24,7 +26,8 @@
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #161616, #888);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 5px; /* borda arredondada da barra de rolagem */
+  border-radius: 5px;
+  /* borda arredondada da barra de rolagem */
 }
 
 body {

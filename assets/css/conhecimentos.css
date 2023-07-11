@@ -1,5 +1,5 @@
 .conhecimentos {
-    margin-top: 60px;
+    margin-top: 70px;
     background: #1a1a1a;
     border-bottom: 1px solid #242424;
     border-top: 1px solid #242424;
@@ -98,12 +98,12 @@
         flex-direction: column;
     }
 
-    .conhecimento {      
+    .conhecimento {
         border-bottom: 1px solid #333;
         border-right: 0;
     }
 
-    .conhecimento:last-child{
+    .conhecimento:last-child {
         border-bottom: 0;
     }
 
