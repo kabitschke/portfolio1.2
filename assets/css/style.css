@@ -35,6 +35,11 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #161616;
+  background-image: url(../img/point.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Roboto', sans-serif;
 }
 
