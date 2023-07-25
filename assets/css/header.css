@@ -1,87 +1,86 @@
-
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #1c1c1c;
-  }
-  
-  .header ul {
-    display: flex;
-  }
-  
-  .header li {
-    list-style: none;
-    font-size: 1.2rem;
-    padding: 10px;
-    background: #1a1a1a;
-    border: 1px solid #242424;
-    border-radius: 4px;
-  }
-  
-  .header li:hover{
-    border: 1px solid #fafafa;
-  }
-  
-  .header a:hover {
-   color: #fafafa;
-  }
-  
-  .header a {
-    text-decoration: none;
-    color: #cacaca;
-    padding: 10px;
-  }
-  
-  .logo a {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  
-  .header_mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header li {
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  background: #1a1a1a;
+  border: 1px solid #242424;
+  border-radius: 4px;
+}
+
+.header li:hover {
+  border: 1px solid #fafafa;
+}
+
+.header a:hover {
+  color: #fafafa;
+}
+
+.header a {
+  text-decoration: none;
+  color: #cacaca;
+  padding: 10px;
+}
+
+.logo a {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.header_mobile {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.header_mobile ul {
+  display: flex;
+}
+
+.header_mobile li {
+  list-style: none;
+}
+
+.header_mobile a {
+  text-decoration: none;
+  color: #cacaca;
+  padding: 10px;
+}
+
+.header_mobile i {
+  font-size: 1.5rem;
+}
+
+.logo_mobile a {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 500px) {
+  .header {
     display: none;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #1c1c1c;
   }
-  
-  .header_mobile ul {
+
+  .header_mobile {
     display: flex;
   }
-  
-  .header_mobile li {  
-    list-style: none; 
-  }
-  
-  .header_mobile a {
-    text-decoration: none;
-    color: #cacaca;
-    padding: 10px;
-  }
-  
-  .header_mobile i {
-    font-size: 1.5rem;
-  }
-  
-  .logo_mobile a {
-    font-size: 1.5rem;
-    font-weight: bold;
+
+  .header_mobile a:hover {
+    color: #fafafa;
   }
 
 
-  
-  @media (max-width: 500px) {
-    .header{
-      display: none;
-    }
-  
-    .header_mobile{
-      display: flex;
-    }
-  
-    .header_mobile a:hover {
-      color: #fafafa;
-    }
-
-
-  }
+}

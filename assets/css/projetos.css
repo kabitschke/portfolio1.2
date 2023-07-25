@@ -42,11 +42,11 @@
   justify-content: space-between;
   font-size: 1.2rem;
   padding: 20px;
-  color: #9d9d9d;
+  color: #b2b2b2;
   background: #1a1a1a;
   border-radius: 4px;
   position: relative;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
   border-bottom: solid 1px #242424;
   box-shadow: 2px 2px 2px 0px rgba(255, 255, 255, 0.08);
@@ -73,7 +73,6 @@
 .projetos-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  font-weight: bold;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -96,18 +95,18 @@
   min-width: 150px;
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #cacaca;
+  color: #cccccc;
 
 }
 
 .projeto-texto a {
   text-decoration: none;
-  color: #cacaca;
+  color: #006CBE;
   font-weight: bold;
 }
 
 .projeto-texto a:hover {
-  border-bottom: dotted 1px #fafafa;
+  border-bottom: dotted 1px #006CBE;
 }
 
 .projeto-habilidades {
