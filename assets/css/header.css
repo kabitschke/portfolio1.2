@@ -1,64 +1,75 @@
-.header {
+.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #1c1c1c;
 }
 
-.header ul {
+.menu ul {
   display: flex;
+  margin: 10px 0;
 }
 
-.header li {
-  list-style: none;
+.menu li {
   font-size: 1.2rem;
-  padding: 10px;
-  background: #1a1a1a;
-  border: 1px solid #242424;
-  border-radius: 4px;
+  font-weight: 300;
+  padding: 20px;
+  font-family: "Roboto";
 }
 
-.header li:hover {
-  border: 1px solid #fafafa;
-}
-
-.header a:hover {
-  color: #fafafa;
-}
-
-.header a {
-  text-decoration: none;
+.menu a {
+  padding: 10px 0;
   color: #cacaca;
-  padding: 10px;
+  position: relative;
+}
+
+.menu a:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0%;
+  background-color: #006CBE;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.menu a:hover:after {
+  width: 100%;
+}
+
+.menu a:hover {
+  color: #ededed;
 }
 
 .logo a {
   font-size: 2rem;
   font-weight: 400;
+  padding: 20px;
+  font-family: "Roboto";
 }
 
-.header_mobile {
+.logo a:after {
+  display: none;
+}
+
+.menu_mobile {
   display: none;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #1c1c1c;
 }
 
-.header_mobile ul {
+.menu_mobile ul {
   display: flex;
 }
 
-.header_mobile li {
-  list-style: none;
-}
-
-.header_mobile a {
-  text-decoration: none;
+.menu_mobile a {
   color: #cacaca;
   padding: 10px;
 }
 
-.header_mobile i {
+.menu_mobile i {
   font-size: 1.5rem;
 }
 
@@ -67,20 +78,45 @@
   font-weight: 400;
 }
 
+@media (max-width: 800px) {
+  .menu ul a {
+    background: #1a1a1a;
+    border: 1px solid #242424;
+    border-radius: 4px;
+  }
 
+  .menu ul a:hover {
+    border: 1px solid #ededed;
+  }
+
+  .menu li {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .menu a {
+    padding: 10px;
+  }
+
+  .menu a:after {
+    display: none;
+  }
+}
 
 @media (max-width: 500px) {
-  .header {
+  .menu {
     display: none;
   }
 
-  .header_mobile {
+  .menu_mobile li {
+    padding: 10px 0;
+  }
+
+  .menu_mobile {
     display: flex;
   }
 
-  .header_mobile a:hover {
+  .menu_mobile a:hover {
     color: #fafafa;
   }
-
-
 }

@@ -1,0 +1,48 @@
+.texto_contato {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.contato {
+  border-top: 1px solid #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.contato .btn {
+  width: 16rem;
+  font-size: 1rem;
+}
+
+.contato .btn i {
+  font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+  .contato .btn i {
+    font-size: 0.75rem;
+  }
+
+  .contato .btn {
+    width: 11rem;
+    font-size: 0.75rem;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .contato .btn i {
+    font-size: 0.75rem;
+  }
+
+  .contato .btn {
+    width: 10rem;
+    font-size: 0.75rem;
+  }
+}

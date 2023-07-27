@@ -6,7 +6,6 @@
     padding-top: 40px;
 }
 
-
 .barra {
     border-bottom: 1px solid #242424;
     max-width: 100px;
@@ -34,11 +33,12 @@
 }
 
 .conhecimento h4 {
+    font-family: "Roboto";
     margin-top: 20px;
     text-transform: uppercase;
     font-size: 18px;
-    color: #9d9d9d;
     font-weight: 400;
+    color: #9d9d9d;
 }
 
 .conhecimento i {
@@ -57,6 +57,7 @@
     visibility: hidden;
     opacity: 0;
     padding-top: 0px;
+    font-family: "Roboto";
 }
 
 
@@ -64,7 +65,7 @@
     opacity: 1;
     visibility: visible;
     padding-top: 10px;
-    color: #9d9d9d;
+    color: #b2b2b2;
 }
 
 @media (max-width: 800px) {
@@ -107,8 +108,4 @@
     .conhecimento:last-child {
         border-bottom: 0;
     }
-
-
-
-
 }

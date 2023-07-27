@@ -6,10 +6,6 @@
   display: none;
 }
 
-.projeto ul {
-  padding: 0;
-}
-
 .projeto.ativo {
   display: flex;
   animation: slideDown .5s forwards;
@@ -24,29 +20,17 @@
   box-shadow: 2px 2px 2px 0px rgba(255, 255, 255, 0.08);
 }
 
-.projeto::before {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 20px;
-  background: #333;
-  background: -webkit-linear-gradient(to top, #FFF, #333);
-  background: linear-gradient(to top, #FFF, #333);
-  position: absolute;
-  top: 20px;
-  left: -4px;
-}
-
 .projeto-head {
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
   padding: 20px;
-  color: #b2b2b2;
+  color: #9d9d9d;
   background: #1a1a1a;
   border-radius: 4px;
   position: relative;
-  font-weight: 500;
+  font-weight: 400;
+  font-family: "Roboto";
   cursor: pointer;
   border-bottom: solid 1px #242424;
   box-shadow: 2px 2px 2px 0px rgba(255, 255, 255, 0.08);
@@ -58,25 +42,17 @@
   justify-content: end;
   color: #9d9d9d;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .projeto-head.ativo::after {
   content: '⤴';
   display: flex;
   justify-content: end;
-  color: #9d9d9d;
+  color: #9c9c9c;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
 }
-
-.projetos-texto {
-  font-size: 1.5rem;
-  line-height: 1.33;
-  text-align: center;
-  margin-bottom: 60px;
-}
-
 
 @keyframes slideDown {
   from {
@@ -95,14 +71,13 @@
   min-width: 150px;
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #cccccc;
-
+  color: #b2b2b2;
+  font-family: "Roboto";
 }
 
 .projeto-texto a {
-  text-decoration: none;
   color: #006CBE;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .projeto-texto a:hover {
@@ -117,13 +92,12 @@
 }
 
 .projeto-habilidades li {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   border-radius: 4px;
   background: #1a1a1a;
   margin-right: 10px;
   padding: 10px;
-  color: #CCC;
-  list-style: none;
+  color: #b2b2b2;
   border: 1px solid #242424;
 }
 
@@ -138,6 +112,10 @@
 
   .projeto-habilidades li {
     margin: 4px 4px;
+  }
+
+  .projeto-habilidades li {
+    font-size: 0.75rem;
   }
 }
 
@@ -173,9 +151,5 @@
 
   .projeto-texto {
     font-size: 0.75rem;
-  }
-
-  .projeto {
-    padding: 10px 10px;
   }
 }
