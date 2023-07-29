@@ -13,7 +13,7 @@
 
 .projeto {
   padding: 20px;
-  background: #1a1a1a;
+  background: var(--cor-04);
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
@@ -25,14 +25,13 @@
   justify-content: space-between;
   font-size: 1.2rem;
   padding: 20px;
-  color: #9d9d9d;
-  background: #1a1a1a;
+  color: var(--cor-02);
+  background: var(--cor-04);
   border-radius: 4px;
   position: relative;
   font-weight: 400;
-  font-family: "Roboto";
   cursor: pointer;
-  border-bottom: solid 1px #242424;
+  border-bottom: solid 1px var(--cor-03);
   box-shadow: 2px 2px 2px 0px rgba(255, 255, 255, 0.08);
 }
 
@@ -40,7 +39,7 @@
   content: '⤵';
   display: flex;
   justify-content: end;
-  color: #9d9d9d;
+  color: var(--cor-02);
   font-size: 20px;
   font-weight: 500;
 }
@@ -49,7 +48,7 @@
   content: '⤴';
   display: flex;
   justify-content: end;
-  color: #9c9c9c;
+  color: var(--cor-02);
   font-size: 20px;
   font-weight: 500;
 }
@@ -71,17 +70,16 @@
   min-width: 150px;
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #b2b2b2;
-  font-family: "Roboto";
+  color: var(--cor-02);
 }
 
 .projeto-texto a {
-  color: #006CBE;
+  color: var(--cor-b1);
   font-weight: 500;
 }
 
 .projeto-texto a:hover {
-  border-bottom: dotted 1px #006CBE;
+  border-bottom: dotted 1px var(--cor-b1);
 }
 
 .projeto-habilidades {
@@ -94,11 +92,11 @@
 .projeto-habilidades li {
   font-size: 0.875rem;
   border-radius: 4px;
-  background: #1a1a1a;
+  background: var(--cor-04);
   margin-right: 10px;
   padding: 10px;
-  color: #b2b2b2;
-  border: 1px solid #242424;
+  color: var(--cor-02);
+  border: 1px solid var(--cor-03);
 }
 
 
@@ -146,6 +144,7 @@
   .projeto-habilidades li {
     font-size: 0.625rem;
     margin-right: 5px;
+    margin-top: 20px;
     padding: 5px;
   }
 

@@ -1,14 +1,14 @@
 footer .menu {
-  border-top: 1px solid #242424;
+  border-top: 1px solid var(--cor-03);
 }
 
 footer .menu_mobile {
-  border-top: 1px solid #242424;
+  border-top: 1px solid var(--cor-03);
 }
 
 .copy {
   margin: 20px 20px;
-  color: #cacaca;
+  color: var(--cor-02);
 }
 
 @media (max-width: 800px) {
@@ -47,7 +47,7 @@ footer .menu_mobile {
 
   .copy_mobile {
     margin: 0 0 20px 0;
-    color: #cacaca;
+    color: var(--cor-02);
   }
 
 }

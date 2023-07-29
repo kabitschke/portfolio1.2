@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #1c1c1c;
+  border-bottom: 1px solid var(--cor-03);
 }
 
 .menu ul {
@@ -12,14 +12,14 @@
 
 .menu li {
   font-size: 1.2rem;
+  line-height: 1.125;
   font-weight: 300;
   padding: 20px;
-  font-family: "Roboto";
 }
 
 .menu a {
   padding: 10px 0;
-  color: #cacaca;
+  color: var(--cor-02);
   position: relative;
 }
 
@@ -28,7 +28,7 @@
   display: block;
   height: 1px;
   width: 0%;
-  background-color: #006CBE;
+  background-color: var(--cor-b1);
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;
@@ -39,14 +39,13 @@
 }
 
 .menu a:hover {
-  color: #ededed;
+  color: var(--cor-01);
 }
 
 .logo a {
   font-size: 2rem;
   font-weight: 400;
   padding: 20px;
-  font-family: "Roboto";
 }
 
 .logo a:after {
@@ -57,7 +56,7 @@
   display: none;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #1c1c1c;
+  border-bottom: 1px solid var(--cor-04);
 }
 
 .menu_mobile ul {
@@ -65,7 +64,7 @@
 }
 
 .menu_mobile a {
-  color: #cacaca;
+  color: var(--cor-02);
   padding: 10px;
 }
 
@@ -80,18 +79,18 @@
 
 @media (max-width: 800px) {
   .menu ul a {
-    background: #1a1a1a;
-    border: 1px solid #242424;
+    background: var(--cor-04);
+    border: 1px solid var(--cor-03);
     border-radius: 4px;
   }
 
   .menu ul a:hover {
-    border: 1px solid #ededed;
+    border: 1px solid var(--cor-01);
   }
 
   .menu li {
     font-size: 1rem;
-    padding: 10px;
+    padding: 20px 10px;
   }
 
   .menu a {
@@ -117,6 +116,6 @@
   }
 
   .menu_mobile a:hover {
-    color: #fafafa;
+    color: var(--cor-01);
   }
 }

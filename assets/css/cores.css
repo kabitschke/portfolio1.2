@@ -1,0 +1,36 @@
+/*variaveis*/
+:root {
+    --cor-01: #ededed;
+    /*borda*/
+    --cor-02: #b2b2b2;
+    /*texto*/
+    --cor-03: #242424;
+    /*borda*/
+    --cor-04: #1a1a1a;
+    /*preenchimento area*/
+    --cor-b1: #006CBE;
+    /*links*/
+}
+
+/*Utilitaria*/
+
+
+.cor-01 {
+    color: var(--cor-01);
+}
+
+.cor-02 {
+    color: var(--cor-02);
+}
+
+.cor-03 {
+    color: var(--cor-03);
+}
+
+.cor-04 {
+    color: var(--cor-04);
+}
+
+.cor-b1 {
+    color: var(--cor-b1);
+}

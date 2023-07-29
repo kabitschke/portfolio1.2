@@ -12,7 +12,6 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 400;
-  font-family: "Roboto";
 }
 
 .texto-medio {
@@ -21,7 +20,6 @@
   font-weight: 400;
   text-align: center;
   margin-bottom: 60px;
-  font-family: "Roboto";
 }
 
 .dec:before {
@@ -41,30 +39,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #9d9d9d;
+  color: var(--cor-02);
   font-size: 1.2rem;
-  font-family: "Roboto";
   border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
-  background: #1a1a1a;
-  border: 1px solid #242424;
+  background: var(--cor-04);
+  border: 1px solid var(--cor-03);
   width: 15rem;
   height: 4rem;
   text-decoration: none;
 }
 
 .btn:hover {
-  border: 1px solid #fafafa;
+  border: 1px solid var(--cor-01);
 }
 
 .btn a {
   text-decoration: none;
-  color: #9d9d9d;
+  color: var(--cor-02);
 }
 
 .btn i {
-  color: #9d9d9d;
+  color: var(--cor-02);
   font-size: 1.5rem;
   margin-right: .4rem;
 }
